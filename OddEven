@@ -1,0 +1,18 @@
+public class OddEvenLoop {
+    public static void main(String[] args) {
+        int limit = 10; // Define the upper limit for the loop
+
+        System.out.println("Numbers from 1 to " + limit + " and their parity:");
+
+        // Loop from 1 up to the defined limit
+        for (int i = 1; i <= limit; i++) {
+            // Check if the number is even using the modulo operator
+            if (i % 2 == 0) {
+                System.out.println(i + " is Even");
+            } else {
+                // If not even, it must be odd
+                System.out.println(i + " is Odd");
+            }
+        }
+    }
+}
