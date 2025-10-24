@@ -4,6 +4,6 @@
  */
 class helloWorldApp {
     public static void main(String[] args) {
-        System.out.println(KAmusta KA!); // Display the string.
+        System.out.println("KAmusta KA!"); // Display the string.
     }
 }
